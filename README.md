@@ -15,4 +15,4 @@ If you have any feedback or suggestions for things I can add please let me know 
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).<br/><br/><br/>
