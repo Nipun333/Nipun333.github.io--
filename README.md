@@ -1,4 +1,4 @@
-<h1 align= "center"> modern-resume-theme
+<br/> <h1 align= "center"> modern-resume-theme
 
   [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) [![Build Status](https://travis-ci.com/sproogen/modern-resume-theme.svg?branch=master)](https://travis-ci.com/sproogen/modern-resume-theme)<h3/> 
 
@@ -11,7 +11,7 @@ If you have any feedback or suggestions for things I can add please let me know 
 
 
 ⚠️ If you would like to see how I am using this then you can view my resume [here](http://www.nipun333.github.io)
-<br/>
+<br/><br/>
 
 ## License
 
