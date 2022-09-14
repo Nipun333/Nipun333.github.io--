@@ -10,7 +10,7 @@
 If you have any feedback or suggestions for things I can add please let me know by either by raising an [issue](https://github.com/nipun333/nipun333.github.io/issues/new/choose) or feel free to send me an email to [sadmannipun@gmail.com](mailto:sadmannipun@gmail.com), I'm always happy to help.
 
 
-⚠️ If you would like to see how I am using this then you can view my resume [here](http://www.nipun333.github.io)
+⚠️ If you would like to see how I am using this then you can view my resume [**here**](http://www.nipun333.github.io)
 <br/><br/>
 
 <h2> License </h2>
