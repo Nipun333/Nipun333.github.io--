@@ -1,0 +1,10 @@
+# Education Template
+- layout: left
+  name: BRAC University
+  dates: 2013 - 2018 #Date Range (eg. 2016 - 2019)
+  qualification: Bsc. in Computer Science & Engineering
+  quote: 
+  description: | # this will include new lines to allow paragraphs
+    ## - CGPA <mark>3.40</mark> out of <mark>4.0</mark> 
+    ## - Favorite area of study: <mark>Data Structures</mark>, <mark>Statistics</mark>, <mark>Discrete Math and Algorithms</mark>.
+    ## - Favorite class: <mark>A.I.</mark>
