@@ -104,7 +104,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/modern-resume-theme
+remote_theme: nipun333/nipun.github.io
 
 sass:
   sass_dir: _sass
