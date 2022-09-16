@@ -104,7 +104,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-theme: modern-resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
