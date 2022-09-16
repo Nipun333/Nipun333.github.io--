@@ -38,9 +38,10 @@ additional_links:
 # about_title: About Me
 about_profile_image: Images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  ## Hi, my name is Nipun, I’m a full stack web developer with over 1 year experience. I used to work for the MGH Group as a full stack software engineer on a freight forwarding web platform. 
+  ## I enjoy making clean, readable and modular code. I have worked with a range of different languages and frameworks and I am always looking for opportunities to work with something new. 
+  ## The things that I currently have the most experience working with are: <mark>Java</mark>, <mark>ES6 Javascript</mark>, <mark>DevOps</mark>, <mark>SQL</mark>, <mark>MySQL</mark>, <mark>React & Redux</mark>, <mark>TypeScript</mark>,<mark>MERN</mark> and <mark>git</mark>. 
+  ## I have also working knowledge on SDLC: <mark>Scrum</mark> & <mark>DSDM</mark>
 
 content:
   - title: Projects # Title for the section
