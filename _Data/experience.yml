@@ -1,9 +1,9 @@
 # Experience template
 - layout: left
-  company: MGH Group
-  link: http://www.mghgroup.com/
-  job_title: Senior Executive
-  dates: December 2018 - April 2020
+  company: 
+  link: 
+  job_title:
+  dates: 
   quote: 
   description: | # this will include new lines to allow paragraphs
-    ## I was in charge of development and maintenance of <a href="http://www.myshipment.com" target="_blank"> myshipment.com </a>. I built REST and SOAP APIs to fetch data from third-party services and the view using <mark>Javascript</mark>, <mark>CSS</mark> and <mark>HTML5</mark> to show data in MAP. As there are multiple services I had to built both <mark>GET</mark> and <mark>POST</mark> endpoints for many <mark>APIs</mark>. I also worked on setting up <mark>CI & CD</mark>. My contribution earned the company with a faster website than before and saved cost of APIs. I tried out agile methedologies as SDLC on my time on MGH Group.
+    ##
