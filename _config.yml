@@ -125,6 +125,6 @@ plugins:
   "vendor/gems/",
   "vendor/ruby/",
   "Lib/",
-  "scripts/",
+  "Scripts/",
   "docker-compose.yml",
   ]
