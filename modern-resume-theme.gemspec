@@ -1,5 +1,5 @@
 lib = File.expand_path("../Lib", __FILE__)
-$LOAD_PATH.unshift(Lib) unless $LOAD_PATH.include?(Lib)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "modern-resume-theme/version"
 
 Gem::Specification.new do |spec|
