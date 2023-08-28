@@ -85,21 +85,9 @@ footer_show_references: true
 
 
 sass:
-  sass_dir: _sass
+  sass_dir: _Sass
   style: compressed
 
 plugins:
  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "Lib/",
-  "Scripts/",
-  "docker-compose.yml",
-  ] 
