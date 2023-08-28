@@ -23,7 +23,7 @@ before_install:
   - ./Scripts/bump-version.sh
 
 script:
-  - bundle exec jekyll build --config _test/_config.yml
+  - bundle exec jekyll build --config _Test/_config.yml
   - bundle exec htmlproofer ./_site --disable-external
 
 after_success:
