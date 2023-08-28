@@ -3,27 +3,37 @@ repository: https://github.com/nipun333/nipun333.github.io
 favicon: Images/favicon.ico
 
 # Personal info
-name: Sadman Salim Nipun
-title: Software Engineer 💻
-email: sadmannipun@gmail.com
-website: www.dev.to/nipun333
+name: Anisul Islam
+title: Software Engineer
+email: anisulislamfahad@gmail.com
+phone: "+8801682760923"
+website: anisul-islam-prog.github.io
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-github_username:  nipun333
-facebook_username: nipun333
-linkedin_username: nipun333
+#twitter_username: lordofxtreme
+github_username:  anisul-islam-prog
+stackoverflow_username: "4568735"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+instagram_username: anisul._.islam
+linkedin_username: lordofxtreme
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: Google Developers Profile
-  icon: fas fa-globe
-  url: https://g.dev/nipun999
-  
+- title: Story
+  icon: fas fa-user-graduate #Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url:  https://stackoverflow.com/story/anisul.islam #Link url (eg. https://google.com)
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -33,71 +43,43 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: About Me
-about_profile_image: Images/profile.jpg
+about_title: Who Am I
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
+  ## Hi, my name is Anis, I’m a full stack web developer with over 1 year experience. I used to work for the MGH Group as a full stack software engineer on a freight forwarding web platform. 
+  ## I enjoy making clean, readable and modular code. I have worked with a range of different languages and frameworks and I am always looking for opportunities to work with something new. 
+  ## The things that I currently have the most experience working with are: <mark>Java</mark>, <mark>ES6 Javascript</mark>, <mark>DevOps</mark>, <mark>SQL</mark>, <mark>MySQL</mark>, <mark>React & Redux</mark>, <mark>TypeScript</mark>,<mark>MERN</mark> and <mark>git</mark>. 
+  ## I have also working knowledge on SDLC: <mark>Scrum</mark> & <mark>DSDM</mark>
 
-  ## Hey there, It's Nipun. I’m a full stack web developer and a fresh graduate.  
-  ## I have the efficiency to write semantic, cross-browser compatible, clean code by hand that is re-useable, maintainable and easy to understand. I have profound proficiency in React and Node.Js to build web application.  
-  ## The things I currently have the most experience are: <mark>Node.Js</mark>, <mark>Javascript</mark>, <mark>React</mark>, <mark>Typescript</mark>, <mark>PostgreSQL</mark>, <mark>Tailwind CSS</mark> and <mark>git</mark>. 
-  ## I have also knowledge on: <mark>Blockchain</mark> & <mark>Competitive Programming</mark>
+# You can even add paragraphs by using empty lines like this and add anything else markdown supports such as 
+#   - Lists
+#   - Tables
+#   - <a href="google.com">Links</a>
+#   - Images
 
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/nipun333/Cf_stats
-        # link_text: Project Website
-        additional_links:
-          - title:  CF_Stats
-            icon: fab fa-github
-            url: github.com/nipun333/Cf_stats
-          # - title:  Github page for project (eg. nipun333/nipun333.github.io)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. nipun333/nipun333.github.io)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way of learning <mark>Markdown</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
 
-- title: Experience # Title for the section
-  layout: list # Type of content section (list/text)
-  content:
-      - layout: left
-        title: 
-        link: 
-        link_text: 
-        sub_title: #Senior Network System Administrator
-        caption: #November 2017 - Present
-        quote: >
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
 
-   description: | # this will include new lines to allow paragraphs
-           
+# Education Section
+# education_title: Education #(Use this to override about education section title)
 
- 
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 # Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
-- title: A Little More About Me
-  layout: text
-  content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-       
-
-      
-
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
-  sass_dir: _Sass
+  sass_dir: _sass
   style: compressed
 
 plugins:
@@ -111,7 +93,7 @@ exclude : [
   "vendor/cache/",
   "vendor/gems/",
   "vendor/ruby/",
-  "Lib/",
-  "Scripts/",
+  "lib/",
+  "scripts/",
   "docker-compose.yml",
   ]
