@@ -52,7 +52,7 @@ footer_show_references: true
 
 
 sass:
-  sass_dir: _sass
+  sass_dir: _Sass
   style: compressed
 
 plugins:
