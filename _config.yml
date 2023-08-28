@@ -33,7 +33,6 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-<br> <br>
 about_title: About Me
 about_profile_image: Images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
