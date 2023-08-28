@@ -33,7 +33,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: <br> <br>About Me
 about_profile_image: Images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
 
@@ -42,57 +42,14 @@ about_content: | # this will include new lines to allow paragraphs
   ## The things I currently have the most experience are: <mark>Node.Js</mark>, <mark>Javascript</mark>, <mark>React</mark>, <mark>Typescript</mark>, <mark>PostgreSQL</mark>, <mark>Tailwind CSS</mark> and <mark>git</mark>. 
   ## I have also knowledge on: <mark>Blockchain</mark> & <mark>Competitive Programming</mark>
 
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/nipun333/Cf_stats
-        # link_text: Project Website
-        additional_links:
-          - title:  CF_Stats
-            icon: fab fa-github
-            url: github.com/nipun333/Cf_stats
-          # - title:  Github page for project (eg. nipun333/nipun333.github.io)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. nipun333/nipun333.github.io)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way of learning <mark>Markdown</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 
-        link: 
-        link_text: 
-        sub_title: #Senior Network System Administrator
-        caption: #November 2017 - Present
-        quote: >
-          
-        description: | # this will include new lines to allow paragraphs
-           
-
- # - title: Education # Title for the section
-    
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
+more_content: | # this will include new lines to allow paragraphs # This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+# Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
       
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
-# Build settings
-remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
