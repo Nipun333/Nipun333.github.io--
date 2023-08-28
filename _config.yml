@@ -18,14 +18,9 @@ github_username:  anisul-islam-prog
 stackoverflow_username: "4568735"
 #dribbble_username: jekyll
 #facebook_username: jekyll
-#flickr_username: jekyll
 instagram_username: anisul._.islam
 linkedin_username: lordofxtreme
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#googleplus_username: +jekyll
-#orcid_username: 0000-0000-0000-0000
+
 
 # Additional icon links
 additional_links:
@@ -44,7 +39,7 @@ additional_links:
 
 # About Section
 about_title: Who Am I
-about_profile_image: images/profile.jpg
+about_profile_image: Images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   ## Hi, my name is Anis, I’m a full stack web developer with over 1 year experience. I used to work for the MGH Group as a full stack software engineer on a freight forwarding web platform. 
   ## I enjoy making clean, readable and modular code. I have worked with a range of different languages and frameworks and I am always looking for opportunities to work with something new. 
@@ -79,7 +74,7 @@ footer_show_references: true
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
-  sass_dir: _sass
+  sass_dir: _Sass
   style: compressed
 
 plugins:
@@ -93,7 +88,7 @@ exclude : [
   "vendor/cache/",
   "vendor/gems/",
   "vendor/ruby/",
-  "lib/",
-  "scripts/",
+  "Lib/",
+  "Scripts/",
   "docker-compose.yml",
   ]
