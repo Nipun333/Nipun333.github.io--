@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Sadman Salim Nipun
-title: Software Engineer
+title: Software Engineer 💻
 email: sadmannipun@gmail.com
 website: www.dev.to/nipun333
 
@@ -40,10 +40,10 @@ additional_links:
 about_profile_image: Images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
 
-  ## Hey there, It's Nipun. I’m a full stack web developer with over 1 year experience. I used to work for the MGH Group as a full stack software engineer on a freight forwarding web platform. 
-  ## I enjoy making clean, readable and modular code. I have worked with a range of different languages and frameworks and I am always looking for opportunities to work with something new. 
-  ## The things that I currently have the most experience working with are: <mark>Java</mark>, <mark>ES6 Javascript</mark>, <mark>DevOps</mark>, <mark>SQL</mark>, <mark>MySQL</mark>, <mark>React & Redux</mark>, <mark>TypeScript</mark>,<mark>MERN</mark> and <mark>git</mark>. 
-  ## I have also working knowledge on SDLC: <mark>Scrum</mark> & <mark>DSDM</mark>
+  ## Hey there, It's Nipun. I’m a full stack web developer and a fresh graduate.  
+  ## I have the efficiency to write semantic, cross-browser compatible, clean code by hand that is re-useable, maintainable and easy to understand. I have profound proficiency in React and Node.Js to build web application.  
+  ## The things I currently have the most experience working with are: <mark>Node.Js</mark>, <mark>Javascript</mark>, <mark>React</mark>, <mark>Typescript</mark>, <mark>PostgreSQL</mark>, <mark>Tailwind CSS</mark> and <mark>git</mark>. 
+  ## I have also knowledge on: <mark>Blockchain</mark> & <mark>Competitive Programming</mark>
 
 content:
   - title: Projects # Title for the section
@@ -103,3 +103,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "Lib/",
+  "Scripts/",
+  "docker-compose.yml",
+  ] 
