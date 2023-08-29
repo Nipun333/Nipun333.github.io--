@@ -20,14 +20,14 @@ branches:
 
 before_install:
   - gem install gem-release --pre
-  - ./Scripts/bump-version.sh
+  - ./scripts/bump-version.sh
 
 script:
-  - bundle exec jekyll build --config _Test/_config.yml
+  - bundle exec jekyll build --config _test/_config.yml
   - bundle exec htmlproofer ./_site --disable-external
 
 after_success:
-  - ./Scripts/merge-downstream.sh
+  - ./scripts/merge-downstream.sh
 
 before_deploy:
   - gem build modern-resume-theme.gemspec
