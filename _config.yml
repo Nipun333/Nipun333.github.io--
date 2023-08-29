@@ -2,8 +2,6 @@
 repository: https://github.com/nipun333/nipun333.github.io
 favicon: Images/favicon.ico
 
-version: 2
-
 # Personal info
 name: Sadman Salim Nipun
 title: Software Engineer 💻 
@@ -76,16 +74,5 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "Lib/",
-  "Scripts/",
-  ]
