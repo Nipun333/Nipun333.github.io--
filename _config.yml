@@ -36,7 +36,7 @@ additional_links:
 about_title: About Me
 about_profile_image: Images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- ## Hey there, It's Nipun. I’m a full stack web developer and a fresh graduate.  
+  ## Hey there, It's Nipun. I’m a full stack web developer and a fresh graduate.  
   ## I have the efficiency to write semantic, cross-browser compatible, clean code by hand that is re-useable, maintainable and easy to understand. I have profound proficiency in React and Node.Js to build web application.  
   ## The things I currently have the most experience are: <mark>Node.Js</mark>, <mark>Javascript</mark>, <mark>React</mark>, <mark>Typescript</mark>, <mark>PostgreSQL</mark>, <mark>Tailwind CSS</mark> and <mark>git</mark>. 
   ## I have also knowledge on: <mark>Blockchain</mark> & <mark>Competitive Programming</mark>
@@ -66,7 +66,7 @@ more_content: | # this will include new lines to allow paragraphs # This is wher
 footer_show_references: true
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
