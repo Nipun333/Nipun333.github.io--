@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sadmannipun@gmail.com"]
 
   spec.summary       = "A modern simple static resume template and theme."
-  spec.homepage      = "https://github.com/nipun333/nipun333.github.io"
+  spec.homepage      = "https://github.com/sproogen/modern-resume-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(Assets|_Layouts|_Includes|_Sass|LICENSE|README)!i) }
