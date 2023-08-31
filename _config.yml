@@ -1,1 +1,101 @@
 
+
+# Personal info
+name: Sadman Salim Nipun
+title: Software Engineer
+email: sadmannipun@gmail.com
+website: www.dev.to/nipun333
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username:  nipun333
+facebook_username: nipun333
+linkedin_username: nipun333
+
+# Additional icon links
+additional_links:
+- title: Google Developers Profile
+  icon: fas fa-globe
+  url: https://g.dev/nipun999
+  
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: Images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+
+  ## Hey there, It's Nipun. I’m a full stack web developer with over 1 year experience. I used to work for the MGH Group as a full stack software engineer on a freight forwarding web platform. 
+  ## I enjoy making clean, readable and modular code. I have worked with a range of different languages and frameworks and I am always looking for opportunities to work with something new. 
+  ## The things that I currently have the most experience working with are: <mark>Java</mark>, <mark>ES6 Javascript</mark>, <mark>DevOps</mark>, <mark>SQL</mark>, <mark>MySQL</mark>, <mark>React & Redux</mark>, <mark>TypeScript</mark>,<mark>MERN</mark> and <mark>git</mark>. 
+  ## I have also working knowledge on SDLC: <mark>Scrum</mark> & <mark>DSDM</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super awesome project
+        link: github.com/nipun333/Cf_stats
+        # link_text: Project Website
+        additional_links:
+          - title:  CF_Stats
+            icon: fab fa-github
+            url: github.com/nipun333/Cf_stats
+          # - title:  Github page for project (eg. nipun333/nipun333.github.io)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. nipun333/nipun333.github.io)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way of learning <mark>Markdown</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 
+        link: 
+        link_text: 
+        sub_title: #Senior Network System Administrator
+        caption: #November 2017 - Present
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+           
+
+ # - title: Education # Title for the section
+    
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
