@@ -1,7 +1,3 @@
-# Site
-repository: https://github.com/nipun333/nipun333.github.io
-favicon: Images/favicon.ico
-
 
 
 # Personal info
@@ -102,3 +98,4 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
