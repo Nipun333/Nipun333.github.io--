@@ -1,6 +1,8 @@
 # Content configuration version
 version: 2
 
+favicon: Images/favicon.ico
+
 # Personal info
 name: Sadman Salim Nipun
 title: Software Engineer
