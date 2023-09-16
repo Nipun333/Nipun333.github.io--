@@ -72,9 +72,9 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-           
+            
 
- #- title: Education # Title for the section
+  - title: Education # Title for the section
     
   - title: A Little More About Me
     layout: text
