@@ -75,7 +75,19 @@ content:
             
 
   - title: Education # Title for the section
-    
+    layout: list
+    content:
+       - layout: left
+          name: American International University Bangladesh
+         dates: 2020 - 2023 #Date Range (eg. 2016 - 2019)
+       qualification: Bsc. in Computer Science & Engineering (CSE)
+         quote: 
+         
+        description: | # this will include new lines to allow paragraphs
+                    ## - CGPA <mark>3.80</mark> out of <mark>4.0</mark> 
+                    ## - Favorite area of study: <mark>Data Structures</mark>, <mark>Algorithm</mark>, <mark>Object Oriented Programming</mark>, <mark>Software Engineering</mark>, <mark>Web Technologies</mark>
+                    ## - Favorite class: <mark>Web Development</mark>
+                    
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
